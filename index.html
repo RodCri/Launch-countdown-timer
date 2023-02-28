@@ -2,30 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="challenge launch countdown timer of frontendmentor">
+  <meta name="keywords" content="launch countdown, timer, frontendmentor">
+  <meta name="author" content="Cristian Camilo Rodriguez">
 </head>
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="content">
+    <h1 class="content__title">We're launching soon</h1>
+    <section class="timer">
+      <div class="timmer__days">
+        <p class="number">08</p>
+        <p class="text">days</p>
+      </div>
+      <div class="timmer__hours">
+        <p class="number">23</p>
+        <p class="text">hours</p>
+      </div>
+      <div class="timmer__minutes">
+        <p class="number">55</p>
+        <p class="text">minutes</p>
+      </div>
+      <div class="timmer__seconds">
+        <p class="number">41</p>
+        <p class="text">seconds</p>
+      </div>
+    </section>
+    <footer class="social">
+      <img src="images/icon-facebook.svg" alt="" srcset="">
+      <img src="images/icon-pinterest.svg" alt="" srcset="">
+      <img src="images/icon-instagram.svg" alt="" srcset="">
+    </footer>
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>
